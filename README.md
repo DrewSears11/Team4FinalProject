@@ -24,7 +24,7 @@ it's attributes.
 
 #### Machine Learning Module
 
-Provisional Machine Learning module that will stand in for the final machine learning model.  
+The machine learning model we will be using is the Naive-Bayes model, a supervised machine learning classifier. Leading up to the model, we will use Natural Language Processing to analyze feedback from the AliExpress API and classify products as positively reviewed or negatively reviewed. The Natural Language Processing model pipeline will work through tokenization, stop words filtering, TF-IDF, and setting up the pipeline. Finally, the Naive-Bayes model will classify the accuracy of the Natural Language Processing pipeline. A mockup of the model is included. 
 
 #### Database
 
