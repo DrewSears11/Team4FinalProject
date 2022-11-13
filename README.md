@@ -30,6 +30,9 @@ The machine learning model we will be using is the Naive-Bayes model, a supervis
 
 Provisional Machine Learning module that will stand in for the final machine learning model.
 
+#### Process
+The database was created by initially calling Ali Express APIs for the women's shoes, women's boots, women's flats, and men's shoes categories. Product IDs were pulled from those groups then used to pull the product feedback for each product. 
+
 #### Communication Protocols and Roles
 
 - Drew is the square role
