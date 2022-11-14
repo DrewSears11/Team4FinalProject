@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Aliexpress Product Quality Predictor </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body style="background-color:rgba(80, 219, 219, 0.103)">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron" style="background-image: url(/static/header.jpg); background-size: 100%">
+        <h1 style="font-family:Avenir; color:rgba(3, 36, 85, 0.479); text-align:center; font-size:40pt"> Aliexpress Product Quality Predictor</h1>
+        <p style="font-family:Avenir; color:rgba(3, 36, 85, 0.479); text-align:center; font-size:25pt">Use the charts below to make an informed purchase</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well"style="background-color:rgba(80, 219, 80, 0.336)">
+          <h5 style="font-family:Avenir; color:rgba(3, 36, 85, 0.479); font: size 14px">Product Category ID:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)" style="font-family:Avenir; color:rgba(3, 36, 85, 0.479); font: size 14px"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title", style="font-family:Avenir"> Product Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body" style="font-family:Avenir; color:rgba(3, 36, 85, 0.527); font: size 14px"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar" style="font-family:Avenir; color:rgba(3, 36, 85, 0.479); font: size 12px"></div><br>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge" style="font-family:Avenir; color:rgba(3, 36, 85, 0.479); font: size 12px"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble" style="font-family:Avenir; color:rgba(3, 36, 85, 0.479); font: size 12px"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/js/charts.js"></script>
+
+</body>
+
+</html>
