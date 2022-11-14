@@ -12,7 +12,7 @@ arrive SIX months after the fact.
 
 #### Purpose of project
 
-The purpose of our project is to use the Ali-Express API  to determine whether or not the product you are looking to buy are in fact a good 
+The purpose of our project is to use the Ali-Express API  to determine whether or not the products you are looking to buy are in fact a good 
 product.  We will use the data from our API to create a database and machine learning to determine whether or not the product is worth
 purchasing.
 
@@ -40,4 +40,4 @@ The database was created by initially calling Ali Express APIs for the women's s
 - Wilfred is the circle role
 - Raquel is the X role
 
-The team will communicate three times a week on Monday and Wednesday evenings to report their progress and any issues they have encountered.  Team can communicate more this is just the bare minimum needed to stay on task.  Team members will let others know via Slack when they have completed tasks and uploaded assignments.  
+The team will communicate two times a week on Monday and Wednesday evenings to report their progress and any issues they have encountered.  Team can communicate more this is just the bare minimum needed to stay on task.  Team members will let others know via Slack when they have completed tasks and uploaded assignments.  
