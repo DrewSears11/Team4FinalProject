@@ -33,12 +33,11 @@ Provisional Machine Learning module that will stand in for the final machine lea
 #### Process
 The database was created by initially calling Ali Express APIs for the women's shoes, women's boots, women's flats, and men's shoes categories. Product IDs were pulled from those groups then used to pull the product feedback for each product. 
 
-#### Communication Protocols and Roles
+#### Communication Protocols and Rules
 
 - Drew is the square role
 - Noor is the triangle role
 - Wilfred is the circle role
 - Raquel is the X role
 
-The team will communicate three times a week on Monday, Wednesday, and Sunday evenings to report their progress and any issues they have encountered.ed.
-Team can communicate more this is just the bare minimum needed to stay on task.
+The team will communicate three times a week on Monday and Wednesday evenings to report their progress and any issues they have encountered.  Team can communicate more this is just the bare minimum needed to stay on task.  Team members will let others know via Slack when they have completed tasks and uploaded assignments.  
