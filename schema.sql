@@ -1,0 +1,27 @@
+CREATE TABLE wshoes_productfeedback (
+ id INT PRIMARY KEY NOT NULL,
+	ProductID VARCHAR, 
+	Buyer_Feedback VARCHAR, 
+	data_productEvaluationStatistic_evarageStar VARCHAR,
+	data_productEvaluationStatistic_evarageStarRage VARCHAR,
+	data_productEvaluationStatistic_fiveStarNum VARCHAR,
+	data_productEvaluationStatistic_fiveStarRate VARCHAR,
+	data_productEvaluationStatistic_fourStarNum VARCHAR,
+	data_productEvaluationStatistic_fourStarRate VARCHAR,
+	data_productEvaluationStatistic_negativeNum VARCHAR,
+	data_productEvaluationStatistic_negativeRate VARCHAR,
+	data_productEvaluationStatistic_neutralNum VARCHAR,
+	data_productEvaluationStatistic_neutralRate VARCHAR,
+	data_productEvaluationStatistic_oneStarNum VARCHAR,
+	data_productEvaluationStatistic_oneStarRate VARCHAR,
+	data_productEvaluationStatistic_positiveNum VARCHAR,
+	data_productEvaluationStatistic_positiveRate VARCHAR,
+	data_productEvaluationStatistic_threeStarNum VARCHAR,
+	data_productEvaluationStatistic_threeStarRate VARCHAR,
+	data_productEvaluationStatistic_totalNum VARCHAR,
+	data_productEvaluationStatistic_twoStarNum VARCHAR,
+	data_productEvaluationStatistic_twoStarRate VARCHAR
+	
+);
+
+SELECT * FROM wshoes_productfeedback;
