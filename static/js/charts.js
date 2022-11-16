@@ -4,7 +4,7 @@ function init() {
   var selector = d3.select("#selDataset");
 
   // Use the list of sample names to populate the select options
-  d3.json("out.json").then((data) => {
+  d3.json("samples.json").then((data) => {
     var sampleNames = data.names;
 
     sampleNames.forEach((sample) => {
@@ -33,7 +33,7 @@ function optionChanged(newSample) {
 
 // Product Info Panel 
 function buildMetadata(sample) {
-  d3.json("out.json").then((data) => {
+  d3.json("samples.json").then((data) => {
     var metadata = data.metadata;
     // Filter the data for the object with the desired sample number
     var resultArray = metadata.filter(sampleObj => sampleObj.id == sample);
@@ -58,7 +58,7 @@ function buildMetadata(sample) {
 // 1. Create the buildCharts function.
 function buildCharts(sample) {
   // 2. Use d3.json to load and retrieve the out.json file 
-  d3.json("out.json").then((data) => {
+  d3.json("samples.json").then((data) => {
     // 3. Create a variable that holds the samples array. 
     var samples = data.samples; 
     // 4. Create a variable that filters the samples for the object with the desired sample number.
@@ -93,7 +93,7 @@ function buildCharts(sample) {
       x: sample_valuesSliced,
       y: otu_idsSliced,
       text: otu_labelsSliced,
-      name: "Bacterial Species",
+      name: "Product Category",
       type: "bar",
       orientation: "h"
     }];
