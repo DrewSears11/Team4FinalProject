@@ -8,7 +8,6 @@ E-commerce sites such as AliExpress, SHEIN, and Fashion Nova sell various produc
 (flip) or low quality (flop).  The shipping times for the products varied greatly too.  Some products would arrive in a few days, while some would
 arrive SIX months after the fact.
 
-
 #### Purpose of project
 
 The purpose of our project is to use product feedback on women's clothing from e-commerce websites to determine whether or not the products you are looking to buy are in fact a good product.  We will use data pulled from Kaggle to create a database on PGAdmin, pull csv files, run an NLP pipeline and use machine learning to determine whether or not the product is worth purchasing.
@@ -21,7 +20,11 @@ its attributes.
 
 #### Machine Learning Module
 
-The machine learning model we will be using is the Naive-Bayes model, a supervised machine learning classifier. Leading up to the model, we will use Natural Language Processing to analyze feedback from the e-commerce website and classify products as positively reviewed or negatively reviewed. The Natural Language Processing model pipeline will work through tokenization, stop words filtering, TF-IDF, and setting up the pipeline. Finally, the Naive-Bayes model will classify the accuracy of the Natural Language Processing pipeline. 
+The machine learning model we will be using is the Naive-Bayes model, a supervised machine learning classifier, to run a sentiment analysis on e-commerce product reviews. Leading up to the model, we will use Natural Language Processing to analyze feedback from the e-commerce website and classify products as positively reviewed or negatively reviewed. The csv file run through the pipeline will have only two columns, the class (positive or negative) and the text of the feedback review. 
+
+The Natural Language Processing model pipeline will work through tokenization, stop words filtering, TF-IDF, and setting up the pipeline. Tokenization will split sentences into words, and then unimportant words will be filtered out. Finally, the frequency of words will be determined (the TF-IDF). We will then fit and transform the pipeline data using the labels and features developed before, such as the length. Then we will use randomSplit to break the data into training and testing - 70% training and 30% testing. 
+
+Finally, the Naive-Bayes model will predict whether each review is negative or positive based on the feedback text provided. We can then use the class column, with the positive or negative classification, to determine the accuracy of our machine learning model's predictions. Using the accuracy data, we can optimize the model until we achieve as high of an accuracy as possible. This model can then be used in the future on larger datasets. We can also analyze whether an individual's feedback tends to fall in line with the star rating of a product, or if there is a disparity. 
 
 #### Database
 
