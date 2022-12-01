@@ -11,6 +11,7 @@ arrive SIX months after the fact.
 #### Purpose of project
 
 [Google Slides Presentation](https://docs.google.com/presentation/d/1XVIwpQXSfSGvNDDlMfFKGGTMrL8WkDGcBJyvGshUG-w/edit?usp=sharing)
+[Tableau Dashboard](https://public.tableau.com/app/profile/raquel.vandenesse/viz/E-CommerceProductQualityPredictor/Dashboard1#1)
 
 The purpose of our project is to use product feedback on women's clothing from e-commerce websites to determine whether or not the products you are looking to buy are in fact a good product.  We will use data pulled from Kaggle to create a database on PGAdmin, pull csv files, run an NLP pipeline and use machine learning to determine whether or not the product is worth purchasing.
 
